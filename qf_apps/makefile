@@ -18,9 +18,8 @@ clean:
 
 
 
-qf_mfgpkg:	$(MFGBINS)
-	mkdir -p ../../qf_mfgpkg
-	cp $(MFGBINS) ../../qf_mfgpkg
+qf-initial-bins:	$(MFGBINS)
+	cp $(MFGBINS) qf-initial-bins
 
 
 qf_helloworldsw/GCC_Project/output/bin/qf_helloworldsw.bin:
